@@ -147,7 +147,7 @@ font-family: 'Tajawal', sans-serif;
 
 /*bio page*/
 #rabi{
-width: 30vmin;
+width: 40vmin;
 height: auto;
 bottom:calc(50vh - 25vmin);
 background-size: 100%;
@@ -163,7 +163,7 @@ line-height: 200%;
 margin-left:50px;
 bottom:-10px; 
 background-size: 100%;
-  font-weight: lighter;
+/*font-weight: lighter;*/
 }
 
 .bio-text-bold {
