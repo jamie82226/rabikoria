@@ -166,6 +166,16 @@ background-size: 100%;
   font-weight: lighter;
 }
 
+.bio-text-bold {
+width: 60vmin; 
+color:#333333;
+font-size:15px;
+line-height: 200%;
+margin-left:50px;
+bottom:-10px; 
+background-size: 100%;
+font-weight: bold;
+}
 
 .bio-page {
   hight:100vh;
