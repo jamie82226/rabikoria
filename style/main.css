@@ -1,0 +1,408 @@
+body, html {
+/*  overflow-y:hidden;*/  
+background:  white;
+font-family: 'Tajawal', sans-serif;
+  cursor: default;
+}
+
+
+
+
+.home {
+  background-color: white;
+font-family: 'Tajawal', sans-serif;
+  border:none;
+  color:#333333;
+  font-size:7vmin;
+  top:50px;
+  left:5vw;
+  position:absolute;
+}
+
+.home:hover  {
+ color:#A7A9AC;
+}
+
+.navigation {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+top:70px;
+right:5vw;
+position:absolute;
+
+
+}
+
+#artwork {
+  background-color: white;
+font-family: 'Tajawal', sans-serif;
+  border:none;
+  color:#333333;
+  font-size:4vmin;
+  margin-right:50px;
+}
+
+#artwork:hover  {
+ color:#A7A9AC;
+}
+
+#abt_him {
+  background-color: white;
+font-family: 'Tajawal', sans-serif;
+  border:none;
+  color:#333333;
+  font-size:4vmin;
+  margin-bottom:15px;
+}
+
+#abt_him:hover  {
+ color:#A7A9AC;
+}
+
+
+#rule{
+  position:absolute;
+  left:83vw;
+  top:90vh;
+  color:#A7A9AC;
+  font-size:1.7vmin;
+  font-weight: lighter;
+/*  margin-left:4px;
+*/}
+
+
+#scrollMarker {
+  position:absolute;
+  left:10px;
+  top:0;
+  width:10px;
+  height:10px;
+  display:block;
+}
+
+
+.draggy {
+  position:absolute;
+  z-index:10000;
+  cursor: grab;
+}
+
+
+.draggy:active {
+  cursor: grabbing;
+}
+
+
+/*image 1*/
+
+#one01 {
+  width:20vmin;
+}
+
+#one02 {
+  width:40vmin;
+}
+
+#one03 {
+  width:40vmin;
+}
+
+
+/*image 2*/
+
+#two01 {
+  width:15vmin;
+}
+
+#two02 {
+  width:25vmin;
+}
+
+#two03 {
+  width:30vmin;
+}
+
+
+/*image 3*/
+
+#three01 {
+  width:20vmin;
+}
+
+#three02 {
+  width:35vmin;
+}
+
+#three03 {
+  width:10vmin;
+}
+
+#three04 {
+  width:10vmin;
+}
+
+
+
+
+/*bio page*/
+#rabi{
+width: 30vmin;
+height: auto;
+bottom:calc(50vh - 25vmin);
+background-size: 100%;
+display:block;
+}
+
+
+.bio-text{
+width: 60vmin; 
+color:#333333;
+font-size:15px;
+line-height: 200%;
+margin-left:50px;
+bottom:-10px; 
+background-size: 100%;
+  font-weight: lighter;
+}
+
+
+.bio-page {
+  hight:100vh;
+bottom:25vh;
+left:25vw;
+display: flex;
+justify-content: center;
+position:absolute;
+
+}
+
+
+/*info*/
+
+/*image*/
+
+
+.info-img {
+color:#333333;
+
+font-weight: lighter;
+bottom:-8px;
+background-size: 100%;
+width: 70vmin;
+display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+#info{
+font-size:15px;
+margin-left:40px;
+}
+
+#title{
+font-family: 'Tajawal', sans-serif;
+font-size:30px;
+font-weight:bold;
+margin-bottom:30px;
+}
+
+
+.pic-info {
+/*margin-top:15%;  \
+*/
+position:absolute;
+bottom:18vh;
+display: flex;
+justify-content: center;
+left:25vw;
+
+}
+
+
+#image{
+width: 50vmin;
+height:auto;
+bottom:calc(50vh - 40vmin);
+/*bottom:15vh;*/ 
+/*margin-right:30px;*/
+
+
+background-size: 100%;
+display:block;
+}
+
+
+
+/*arrows*/
+.arrow{ 
+display: flex;
+flex-direction: row;
+
+
+
+  color:#333333;
+  right:5vw;
+  bottom:8vh;
+  position:fixed;
+
+}
+
+#left {
+    background-color: transparent;
+  border:none;
+    font-size: 4vmin;
+ margin-right:40px;
+
+}
+
+#left:hover  {
+ color:#A7A9AC;
+}
+
+#right {
+    background-color: transparent;
+  border:none;
+    font-size: 4vmin;
+}
+#right:hover  {
+ color:#A7A9AC;
+}
+
+#right-none {
+    background-color: white;
+  border:none;
+  color: white;
+    font-size: 4vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gridlines {
+  --grid-size:10vmin;
+  --grid-color:grey;
+  color:white;
+  background-image: linear-gradient(var(--grid-color) 1px, transparent 1px), linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: -1px -1px;
+}
+
+
+.phone_show{
+  width: 70vmin;
+  height:auto;
+ 
+  margin-left:auto;
+    margin-right:auto;
+
+  display:flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+#image1{
+   margin-top:150px;
+
+   margin-bottom:100px; 
+   
+}
+
+#image2, #image3{
+   margin-top:30px;
+     margin-bottom:100px;
+}
+
+
+
+#phone_info{
+  color:#333333;
+  margin-top:-2vh;
+  margin-left:auto;
+    margin-right:auto;
+  margin-bottom:90px;
+}
+
+.phone_show_info{
+color:#333333;
+  width: 70vmin;
+  height:auto;
+ 
+  margin-left:auto;
+    margin-right:auto;
+    display:none;
+
+}
+
+#phone_info_bio{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 15px;
+  font-weight:lighter;
+  color:#333333;
+  line-height: 200%;
+  margin-top:5vh;
+  margin-left:auto;
+    margin-right:auto;
+  margin-bottom:90px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  #one01, #one02, #one03, #two01, #two02, #two03, #three01, #three02,#three03, #three04, #rule  {
+   display:none;
+  }
+
+.pic-info{
+  display:none;
+}
+
+  .phone_show{
+    display:block;
+  }
+
+    .phone_show_info{
+    display:block;
+  }
+
+.bio-page{
+  display:none;
+}
+
+
+
+
+
+}
+
+@media only screen and  (min-width: 801px) {
+ .phone_show{
+   display:none;
+  }
+
+   .phone_show_info{
+   display:none;
+  }
+
+
+
+
+}
+
