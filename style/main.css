@@ -238,22 +238,17 @@ display:block;
 .arrow{ 
 display: flex;
 flex-direction: row;
-
-
-
-  color:#333333;
-  right:5vw;
-  bottom:8vh;
-  position:fixed;
-
+color:#333333;
+right:5vw;
+bottom:8vh;
+position:fixed;
 }
 
 #left {
-    background-color: transparent;
-  border:none;
-    font-size: 4vmin;
- margin-right:40px;
-
+background-color: transparent;
+border:none;
+font-size: 4vmin;
+margin-right:40px;
 }
 
 #left:hover  {
